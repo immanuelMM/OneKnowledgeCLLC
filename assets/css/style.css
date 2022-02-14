@@ -1491,10 +1491,12 @@ section {
 }
 .contact .php-email-form input,
 .contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-  border-radius: 4px;
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background-color: #f5f5f5f5;
+  font-size: 16px;
 }
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
@@ -1507,12 +1509,15 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type="submit"] {
-  background: #2487ce;
-  border: 0;
-  padding: 10px 30px;
+  padding: 15px;
+  background-color: #ff5361;
   color: #fff;
-  transition: 0.4s;
-  border-radius: 4px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
 }
 .contact .php-email-form button[type="submit"]:hover {
   background: #3194db;
