@@ -1411,7 +1411,7 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: #2487ce;
+  color: #f79951;
   float: left;
   width: 44px;
   height: 44px;
@@ -1442,7 +1442,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #2487ce;
+  background: #c78651;
   color: #fff;
 }
 .contact .php-email-form {
