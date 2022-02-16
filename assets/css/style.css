@@ -501,7 +501,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #f79951;
+  color: #ff8c62;
   font-family: -webkit-body;
 }
 .section-title p {
@@ -565,7 +565,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  padding: 60px 0;
+  padding: 10px 0;
 }
 .counts .count-box {
   width: 100%;
@@ -1705,7 +1705,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #f69d59;
+  background: #ff8c62;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1762,4 +1762,113 @@ a {
   background: #f79951;
   color: #fff;
   text-decoration: none;
+}
+.section-padding {
+  padding: 60px 0;
+}
+
+hr {
+  border-top: 1px dotted #ddd;
+}
+
+#feature {
+  background: #f8f9fb;
+}
+
+.text-wrapper {
+  height: 100%;
+  display: table;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.text-wrapper > div {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.feature-thumb {
+  margin-right: -60px;
+}
+
+.title-hl {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.features-box {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.features-box .features-icon {
+  margin-bottom: 15px;
+}
+.portfolio .btn-learn-more {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 5px;
+  transition: 0.3s;
+  line-height: 1;
+  color: #f79951;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 2px solid #f79951;
+}
+.portfolio .btn-learn-more:hover {
+  background: #f79951;
+  color: #fff;
+  text-decoration: none;
+}
+.img {
+  width: 500px;
+  height: 350px;
+  border: 2px solid #fff;
+  background: url(img/tiger.png) no-repeat;
+  box-shadow: 30px 30px 10px #ccc;
+  -moz-box-shadow: 20px 20px 10px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+#portfolio .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #ff8c62;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 5px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+#portfolio .social-links a:hover {
+  background: #c78651;
+  color: #fff;
+  text-decoration: none;
+}
+hr.style-eight {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+}
+hr.style-eight:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
 }
