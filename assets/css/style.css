@@ -1843,6 +1843,16 @@ img {
   text-decoration: none;
 }
 .img {
+  width: 600px;
+  height: 400px;
+  border: 2px solid #fff;
+  background: url(img/tiger.png) no-repeat;
+  box-shadow: 30px 30px 10px #ccc;
+  -moz-box-shadow: 20px 20px 10px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+.survivor-img {
   width: 300px;
   height: 350px;
   border: 2px solid #fff;
