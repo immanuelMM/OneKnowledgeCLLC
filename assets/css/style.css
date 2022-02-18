@@ -150,7 +150,7 @@ h6 {
     font-size: 28px;
   }
   #header i {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 
@@ -262,6 +262,14 @@ h6 {
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
+  .navbar .getstarted,
+  .navbar .getstarted:focus {
+    padding: 8px 20px;
+    font-size: 10px;
+  }
+  /* .logo i {
+    visibility: hidden;
+  } */
 }
 
 /**
