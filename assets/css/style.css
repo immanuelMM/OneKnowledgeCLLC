@@ -1915,3 +1915,32 @@ hr.style-eight:after {
   font-size: 20px;
   text-transform: uppercase;
 }
+.modal-content {
+  color: rgb(243, 240, 240);
+  background: #151616;
+  border: 10px solid rgba(223, 216, 216, 0.3);
+  box-shadow: 1px 1px 15px 12px rgb(0 0 0);
+}
+.mc-field-group input {
+  margin: 20px 20px 20px 0;
+  border: 0;
+  margin: 10px 0;
+  padding: 10px;
+  outline: none;
+  background-color: #f5f5f5f5;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 100%;
+}
+.button {
+  color: #fff;
+  background-color: #f79951;
+  border: 0;
+  padding: 7px;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
