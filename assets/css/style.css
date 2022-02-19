@@ -1944,3 +1944,60 @@ hr.style-eight:after {
   border-radius: 30px;
   margin-bottom: 30px;
 }
+/* mailchemp css */
+
+form .mc-field-group {
+  margin-bottom: 35px;
+}
+form .indicates-required {
+  color: #cccdcf;
+  font-size: 1em;
+  margin: 35px 0;
+  text-align: center;
+}
+#mc_embed_signup div.mce_inline_error {
+  display: inline-block;
+  font-size: 1em;
+  position: relative;
+}
+#mc_embed_signup div.mce_inline_error:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #6b0505;
+  position: absolute;
+  top: -10px;
+}
+form #mce-success-response {
+  background-color: greenyellow;
+  padding: 25px;
+  text-align: center;
+  color: #fff;
+  border-radius: 12px;
+  transition: 1s;
+  animation: response 1s forwards;
+}
+form #mce-error-response {
+  background-color: #6b0505;
+  padding: 25px;
+  text-align: center;
+  color: #fff;
+  border-radius: 12px;
+  transition: 1s;
+  animation: response 1s forwards;
+}
+form #mce-success-response a {
+  color: #fff;
+}
+@keyframes response {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
