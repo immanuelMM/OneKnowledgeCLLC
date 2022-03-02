@@ -63,10 +63,10 @@ $(document).ready(function () {
     $("#myModal").modal("show");
   }, 3000);
   $("#myModal").modal("hide");
-});
-function closeModal() {
-  $("#myModal").modal("hide");
-}
-$("#close").click(function () {
-  closeModal();
-});
+  });
+  function closeModal() {
+    $("#myModal").modal("hide");
+  }
+  $("#close").click(function () {
+    closeModal();
+  });
